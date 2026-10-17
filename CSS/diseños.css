@@ -1,0 +1,119 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Sección de navegación superior (.nav) */
+.nav {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.nav h1 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Sección central de datos (.Datos) */
+.Datos {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio automático entre elementos hijos */
+}
+
+.Datos h1 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Campos de texto */
+input[type="text"] {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #3498db;
+}
+
+/* Botones generales */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para botón de borrar o limpiar (opcional para diferenciarlo) */
+#btn-borrar, #btm-borrar-todo {
+    background-color: #e74c3c;
+}
+
+#btn-borrar:hover, #btm-borrar-todo:hover {
+    background-color: #c0392b;
+}
+
+/* Enlaces (<a>) */
+a {
+    color: #3498db;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mensaje de error */
+#mensaje-error {
+    color: #e74c3c;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Estilo para el saludo en página 2 */
+#saludo {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin: 10px 0;
+}
