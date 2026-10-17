@@ -11,7 +11,7 @@ function guardar() {
     localStorage.setItem("nombre", nombre);
     localStorage.setItem("ciudad", ciudad);
 
-    window.location.href = "pagina2.html";
+    window.location.href = "index2.html";
 }
 
 document.getElementById("btn-guardar").addEventListener("click", guardar);
