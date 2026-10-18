@@ -8,6 +8,11 @@ function guardar() {
         return;
     }
 
+    if (ciudad === ""){
+        mensajeError.textContent = "Debe de ingresar una ciudad";
+        return;
+    }
+
     localStorage.setItem("nombre", nombre);
     localStorage.setItem("ciudad", ciudad);
 
